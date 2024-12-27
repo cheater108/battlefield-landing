@@ -1,0 +1,52 @@
+.container {
+    width: 50px;
+    border-right: 1.5px solid rgb(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.top img {
+    width: 23px;
+    opacity: 0.5;
+    transition: all 0.25s;
+}
+
+.top img:hover {
+    opacity: 1;
+}
+
+.selected {
+    align-self: stretch;
+    border-left: 3px solid #ee930e;
+}
+
+.selected img {
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.bottom img {
+    opacity: 0.5;
+    transition: all 0.25s;
+}
+
+.bottom img:hover {
+    opacity: 1;
+}

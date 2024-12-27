@@ -1,12 +1,14 @@
 import "./App.css";
 import Main from "./components/Main";
+import RightNav from "./components/RightNav";
+import SideMenu from "./components/SideMenu";
 
 function App() {
     return (
         <>
-            <aside className="side"></aside>
+            <SideMenu />
             <Main />
-            <aside className="right"></aside>
+            <RightNav />
         </>
     );
 }

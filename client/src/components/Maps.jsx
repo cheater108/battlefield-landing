@@ -6,14 +6,12 @@ function Maps() {
         <div className={styles.container}>
             <p>MAP ROTATION</p>
             <div className={styles.inner}>
-                {mapData.map((data) => (
-                    <div className={styles.card}>
+                {mapData.map((data, ind) => (
+                    <div key={ind} className={styles.card}>
                         <div
                             className={styles.map_img}
                             style={{ backgroundImage: `url(${data.img})` }}
-                        >
-                            {/* <img src={data.img} alt="map" /> */}
-                        </div>
+                        ></div>
                         <div className={styles.map_info}>
                             <p>CONQUEST LARGE</p>
                             <p>{data.name}</p>

@@ -1,0 +1,79 @@
+.container {
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+    padding: 10px;
+    width: 50px;
+    transition: all 0.5s;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.top {
+    display: flex;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.top p {
+    display: none;
+    opacity: 0;
+    transition: display 0.25s 0.25s;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.bottom img {
+    width: 25px;
+    opacity: 0.5;
+}
+
+.bottom div {
+    display: none;
+    opacity: 0;
+    font-size: 0.55rem;
+    font-weight: 500;
+    transition: display 0.25s 0.25s;
+    flex: 1;
+    padding-left: 10px;
+    transition: all 0.25s;
+    align-self: stretch;
+}
+
+.bottom:hover div {
+    background-color: white;
+    color: black;
+    cursor: default;
+}
+
+.bottom:hover img {
+    opacity: 1;
+}
+
+.container:hover {
+    right: 0px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+.container:hover .card {
+    border-top: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.container:hover .top p {
+    display: block;
+    opacity: 1;
+}
+
+.container:hover .bottom div {
+    display: block;
+    opacity: 1;
+}
