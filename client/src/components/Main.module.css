@@ -1,0 +1,24 @@
+.container {
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.breadcrumb {
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.bread_inner {
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 1.7rem;
+}

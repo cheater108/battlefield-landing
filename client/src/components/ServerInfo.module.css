@@ -1,0 +1,64 @@
+.container {
+    flex: 1;
+    overflow: auto;
+    width: 68%;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.name_below {
+    display: flex;
+    gap: 10px;
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 0.65rem;
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 600;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.btn {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    color: white;
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 600;
+    margin-top: 10px;
+    width: 32vh;
+    cursor: default;
+}
+
+.btn:last-of-type {
+    width: 15vh;
+}
+
+.info_container {
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+}
+
+.info {
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.info p:last-of-type {
+    font-size: 1.1rem;
+}

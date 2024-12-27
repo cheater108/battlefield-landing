@@ -1,0 +1,45 @@
+.container {
+    margin-top: 20px;
+}
+
+.container > p {
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 170px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.map_info {
+    font-weight: 700;
+    font-size: 0.65rem;
+    background-color: rgba(16, 16, 16, 0.5);
+    padding: 10px;
+    transition: all 0.25s;
+}
+
+.map_img {
+    height: 40px;
+    background-size: 36vh;
+    transition: all 0.25s;
+}
+
+.card:hover .map_info {
+    background-color: white;
+    color: black;
+}
+
+.card:hover .map_img {
+    background-position: 0px;
+}
