@@ -7,10 +7,7 @@ function Settings() {
     const [settings, setSettings] = useState(serverSettings);
 
     useEffect(() => {
-        getServerSettings(1).then((data) => {
-            setSettings(data);
-            console.log(data);
-        });
+        getServerSettings(1).then((data) => setSettings(data));
     }, []);
 
     return (

@@ -47,6 +47,28 @@
     transition: all 0.25s;
 }
 
+.item {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    display: none;
+    opacity: 0;
+    font-size: 0.5rem;
+    text-align: center;
+    background-color: black;
+    top: 5px;
+    left: 30px;
+    width: max-content;
+    padding-inline: 5px;
+}
+
+.item:hover .tooltip {
+    display: block;
+    opacity: 1;
+}
+
 .bottom img:hover {
     opacity: 1;
 }

@@ -13,34 +13,48 @@ function SideMenu() {
     return (
         <div className={styles.container}>
             <div className={styles.top}>
-                <div>
+                <div className={styles.item}>
                     <img src={career3} alt="career" />
+                    <p className={styles.tooltip}>BATTLEFIELD V</p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={career2} alt="career" />
+                    <p className={styles.tooltip}>BATTLEFIELD 1</p>
                 </div>
-                <div className={styles.selected}>
+                <div className={`${styles.selected} ${styles.item}`}>
                     <img src={career4} alt="career" />
+                    <p
+                        className={styles.tooltip}
+                        style={{ marginLeft: "10px" }}
+                    >
+                        BATTLEFIELD 4
+                    </p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={career5} alt="career" />
+                    <p className={styles.tooltip}>BATTLEFIELD HARDLINE</p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={career1} alt="career" />
+                    <p className={styles.tooltip}>CAREER</p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={watch} alt="career" />
+                    <p className={styles.tooltip}>WATCH</p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={news} alt="career" />
+                    <p className={styles.tooltip}>NEWS</p>
                 </div>
             </div>
             <div className={styles.bottom}>
-                <div>
+                <div className={styles.item}>
                     <img src={help} alt="help" />
+                    <p className={styles.tooltip}>HELP</p>
                 </div>
-                <div>
+                <div className={styles.item}>
                     <img src={quit} alt="quit" />
+                    <p className={styles.tooltip}>QUIT</p>
                 </div>
             </div>
         </div>
