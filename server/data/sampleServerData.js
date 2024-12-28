@@ -8,6 +8,8 @@ const basicInfo = {
     map: "LANGCANG DAM",
     custom: "CUSTOM",
     freq: "60",
+    ping: "104",
+    tick: "60",
 };
 
 const serverSettings = {

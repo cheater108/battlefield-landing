@@ -6,6 +6,8 @@ const basicInfo = {
     map: "",
     custom: "",
     freq: "",
+    ping: "",
+    tick: "",
 };
 
 const serverSettings = {

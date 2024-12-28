@@ -41,11 +41,11 @@ function ServerInfo() {
                 </div>
                 <div className={styles.info}>
                     <p>PING</p>
-                    <p>104ms</p>
+                    <p>{info.ping}ms</p>
                 </div>
                 <div className={styles.info}>
                     <p>TICKRATE</p>
-                    <p>60Hz</p>
+                    <p>{info.tick}Hz</p>
                 </div>
             </div>
             <Settings />
